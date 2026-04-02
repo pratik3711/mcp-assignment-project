@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Today Only</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Today Only</h1>
+    <p class="subtitle">What needs to get done today?</p>
+
+    <div class="input-row">
+      <input
+        type="text"
+        id="task-input"
+        placeholder="Add a task..."
+        autocomplete="off"
+      />
+      <button id="add-btn">Add</button>
+    </div>
+
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
