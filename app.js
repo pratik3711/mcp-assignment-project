@@ -12,10 +12,16 @@ function addTask() {
   const li = document.createElement("li");
   li.className = "task-item";
   li.innerHTML = `
-    <input type="checkbox" />
-    <span class="task-text">${text}</span>
-    <button class="delete-btn" aria-label="Delete task">✕</button>
-  `;
+  <input type="checkbox" class="checkbox" />
+  <span class="task-text">${text}</span>
+  <button class="delete-btn">X</button>
+`;
+const checkbox = li.querySelector(".checkbox");
+const taskText = li.querySelector(".task-text");
+
+checkbox.addEventListener("change", () => {
+  taskText.classList.toggle("completed");
+});
 
   list.appendChild(li);
   input.value = "";
