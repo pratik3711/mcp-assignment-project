@@ -22,6 +22,11 @@ const taskText = li.querySelector(".task-text");
 checkbox.addEventListener("change", () => {
   taskText.classList.toggle("completed");
 });
+const deleteBtn = li.querySelector(".delete-btn");
+
+deleteBtn.addEventListener("click", () => {
+  li.remove();
+});
 
   list.appendChild(li);
   input.value = "";
