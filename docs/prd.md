@@ -4,7 +4,7 @@ There's no "write-a-prd" skill available either — but no problem, I'll write i
 
 # Product Requirements Document
 **Project:** Today Only — Focus To-Do App
-**Author:** \[Your Name\]
+**Author:** \[Pratik Patel\]
 **Version:** 1.0
 **Date:** April 2, 2026
 
